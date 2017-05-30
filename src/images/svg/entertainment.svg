@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="15px" viewBox="0 0 11 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Entertainment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4298E1" offset="0%"></stop>
+            <stop stop-color="#1763CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dads_Best_Destinations" transform="translate(-1164.000000, -1263.000000)">
+            <g id="Content" transform="translate(110.000000, 381.000000)">
+                <g id="Subheader" transform="translate(45.000000, 612.000000)">
+                    <g id="Entertainment" transform="translate(1007.000000, 269.000000)">
+                        <rect id="Rectangle-2" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                        <path d="M13,4 C13,3.87261146 12.955414,3.89808917 12.955414,3.77070064 C12.8917197,2.91082803 12.7006369,2.08280255 12.3503185,1.2866242 C12.2866242,1.12738854 12.0955414,1 11.9044586,1 L2.98726115,1 C2.79617834,1 2.63694268,1.0955414 2.54140127,1.2866242 C2.1910828,2.17834395 2,3.10191083 2,4.08917197 L2,4.15286624 C2,7.36942675 4.10191083,10.0127389 6.8089172,10.4267516 C6.93630573,10.4585987 7.03184713,10.5541401 7.03184713,10.6815287 L7.03184713,14.7898089 C7.03184713,14.9171975 7.1910828,14 7.03184713,14 L4.40644904,15.044586 C4.15167197,15.044586 3.92874204,15.2675159 3.92874204,15.522293 C3.92874204,15.7770701 4.15167197,16 4.40644904,16 L10.6126592,16 C10.8674363,16 11,15.6788788 11,15.522293 C11,15.3657072 10.8674363,15.044586 10.6126592,15.044586 L7.98726115,14 C7.85987261,14 7.98726115,14.9490446 7.98726115,14.7898089 L7.98726115,10.6815287 C7.98726115,10.5541401 8.08280255,10.4585987 8.21019108,10.4267516 C10.8535032,10.044586 13,7.21656051 13,4 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <path d="M4,2 L11,2 L11,3 C11,3.55228475 10.5621186,4 9.99707067,4 L5.00292933,4 C4.44902676,4 4,3.55613518 4,3 L4,2 Z" id="Rectangle-6" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

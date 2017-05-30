@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4298E1" offset="0%"></stop>
+            <stop stop-color="#1763CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dads_Best_Destinations" transform="translate(-636.000000, -9568.000000)" fill="url(#linearGradient-1)">
+            <g id="Content" transform="translate(65.000000, 381.000000)">
+                <g id="Table" transform="translate(89.000000, 8002.000000)">
+                    <g id="Group-12" transform="translate(247.000000, 0.000000)">
+                        <g id="Link" transform="translate(211.000000, 1170.000000)">
+                            <g id="Group-11" transform="translate(24.000000, 12.000000)">
+                                <path d="M10.0005007,3 C4.47749236,3 0,7.47726818 0,13 C0,18.5227318 4.47749236,23 10.0005007,23 C15.5235091,23 20,18.5227318 20,13 C20,7.47726818 15.5235091,3 10.0005007,3 L10.0005007,3 Z M12.6739284,11 L10,13.7493385 L7.32607162,11 L6.5,12.0488622 L10,15.6473805 L13.5,12.0485094 L12.6739284,11 L12.6739284,11 Z" id="Combined-Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

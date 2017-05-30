@@ -1,0 +1,1032 @@
+@import "_variable.styl"
+
+body
+  font-family: Whitney SSm A, sans-serif;
+
+.content
+  width: 1220px
+  margin: 0 auto
+  position relative
+
+.main-text
+  font-size: 14px
+  color: $text_color
+  letter-spacing: -0.1px
+  line-height: 24px
+  font-weight 400
+
+  &.ind-text
+    font-weight 300
+  a
+    color: $main_color
+    border-bottom  1px solid rgba(63, 136, 197, 0.3)
+    &:hover
+      border-bottom: none
+b
+  font-weight 600
+
+.cols__wrap
+  display flex
+  justify-content space-between
+  &.multi-lines
+    flex-wrap wrap
+
+.primary-title
+  font-size: 22px
+  color: #475359
+  letter-spacing: 0
+  line-height: 42px
+  font-weight 600
+  text-align center
+  padding-bottom: 37px
+
+.small_table
+  display: flex
+  margin-top: 24px
+  .col
+    width: 100%
+    
+  .head-line
+    color: #fff
+    text-transform uppercase
+    font-size 13px
+
+  .line
+    background: rgba(68, 204, 0, .1)
+    border-bottom: 1px solid #fff
+    display: flex
+    border-radius: 3px 0 0 3px
+    padding: 26px 45px 15px 16px;
+    
+  .line--bonus
+    position: relative
+    &:before
+      content: 'Bonus Pick'
+      position: absolute
+      left: -14px
+      top: 95px
+      font-size: 12px
+      line-height: 12px
+      font-weight: 700
+      text-transform: uppercase
+      color: #8CAD09
+      transform: rotate(-90deg)
+
+  .name
+    font-weight 600
+    font-size: 14px
+    color: $title_color
+    letter-spacing: 0
+    line-height: 16px
+    position: relative
+    padding-right: 25px
+    padding-bottom: 16px
+    display block
+
+  .reg
+    font-weight 600
+    font-size: 10px
+    color: #95A69D
+    letter-spacing: 0
+    line-height: 10px
+    position: relative
+    top: 0
+
+  .num
+    font-weight 600
+    font-size: 14px
+    letter-spacing: 0
+    padding-right: 20px
+    color: $main_color
+    padding-top: 1px
+
+  .text
+    font-size: 14px
+    color: #475359
+    letter-spacing: -.2px
+    line-height: 24px 
+    
+.small_table--scholarly
+  .text__link
+    color: #75AD2E
+    text-decoration: underline 
+  .line
+    background: rgba(251,252,243,1) 
+  .line--bonus       
+    .num
+      &:before
+        content: ''
+        display: block
+        width: 16px
+        height: 16px
+        background-image: url(images/svg/bonus-star.svg)
+        
+  .num
+      color: #75AD2E
+      
+
+.small_table--party
+  .text__link
+    color: #FF8900
+    text-decoration: underline 
+  .line
+    background: rgba(255,250,237,1)
+  .line--bonus
+    &:before
+      content: 'Bonus Pick'
+      position: absolute
+      left: -14px
+      top: 95px
+      font-size: 12px
+      line-height: 12px
+      font-weight: 700
+      text-transform: uppercase
+      color: #FF7C17
+      transform: rotate(-90deg)
+    .num
+      &:before
+        content: ''
+        display: block
+        width: 16px
+        height: 16px
+        background-image: url(images/svg/bonus-star-orange.svg)
+        
+  .num
+      color: #FF8900
+      
+.small_table--thrill
+  .text__link
+    color: #C20F0F
+    text-decoration: underline 
+  .line
+    background: rgba(252,240,240,1)
+  .line--bonus
+    &:before
+      content: 'Bonus Pick'
+      position: absolute
+      left: -14px
+      top: 95px
+      font-size: 12px
+      line-height: 12px
+      font-weight: 700
+      text-transform: uppercase
+      color: #C20F0F
+      transform: rotate(-90deg)
+    .num
+      &:before
+        content: ''
+        display: block
+        width: 16px
+        height: 16px
+        background-image: url(images/svg/bonus-star-red.svg)
+        
+  .num
+      color: #C20F0F
+
+.small_table--typical
+  .text__link
+    color: #2E7FD7
+    text-decoration: underline 
+  .line
+    background: rgba(240,247,253,1)
+  .line--bonus
+    &:before
+      content: 'Bonus Pick'
+      position: absolute
+      left: -14px
+      top: 95px
+      font-size: 12px
+      line-height: 12px
+      font-weight: 700
+      text-transform: uppercase
+      color: #1562CB
+      transform: rotate(-90deg)
+    .num
+      &:before
+        content: ''
+        display: block
+        width: 16px
+        height: 16px
+        background-image: url(images/svg/bonus-star-blue.svg)
+        
+  .num
+      color: #1562CB
+     
+.primary-text
+  font-size: 12px
+  color: $text_color
+  letter-spacing: 0
+  line-height: 22px
+
+.block-title
+  font-weight 600
+  font-size: 34px
+  color: #475359
+  letter-spacing: -1px
+  line-height: 42px
+  padding-bottom: 26px
+  text-align center
+  padding-top: 18px
+
+.first-title
+  color: #475359
+  line-height: 42px
+  text-transform: inherit
+  letter-spacing: -1.0px
+
+.b-main_article
+  padding-top: 32px
+  padding-bottom: 184px
+
+.page__wrap
+  background-image: url(images/footer_bg.png), url(images/svg/clouds_bg.svg), url(images/svg/clouds_bg.svg), linear-gradient(-180deg, #34C4F0 0%, #1C90E2 100%)
+  background-position 50% 100%, 0 250px, 600px 50%
+  background-repeat no-repeat, repeat-x, repeat-x
+  background-size: auto, auto, auto
+
+.main-pic
+  position: relative
+  background-position: center
+  background-size: cover
+  height: 568px
+  padding: 34px 44px 40px 45px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  box-sizing: border-box
+  //box-shadow: 0 9px 20px 0 rgba(12, 92, 131, 0.40)
+  border-radius: 5px 5px 0 0
+  align-items flex-start
+  position: relative
+  background-image: url('images/main_pic.png')
+  background-image: -webkit-image-set(url(images/main_pic.png) 1x, url(images/main_pic@2x.png) 2x)
+
+.article-text
+  z-index: 5
+
+.main-pic__mask
+  position: absolute
+  left: 0
+  bottom: 0
+  width: 100%
+  height: 200px
+  opacity: 0.63
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0) 3%, rgba(0,0,0,0.3) 100%)
+  z-index: 2
+
+.text-box
+  padding: 30px 45px 45px 45px
+  background: #FFFFFF
+  box-shadow: 0 9px 20px 0 rgba(12, 92, 131, 0.40)
+  margin-bottom: 10px
+
+.text-box--rate
+  padding-bottom: 13px
+
+.text-box--best
+  padding-bottom: 20px
+.text-box.last
+  border-radius: 0 0 5px 5px
+  position: relative
+  z-index 1
+.text-box--methodology
+  padding-top: 44px
+.article-table
+  padding-bottom: 47px
+.text-box--expert
+  position: relative
+
+.breadcrumbs
+  &__wrap
+    display flex
+    background-color: rgba(255, 255, 255, .9)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10)
+    border-radius: 2px
+    padding: 0 14px
+
+  &__item
+    font-size: 12px
+    letter-spacing: 0
+    line-height: 42px
+    color: #667780
+    &:first-child
+      &:before
+        display: none
+    &:before
+      content: ''
+      display: inline-block
+      color: #fff
+      width: 6px
+      height: 13px
+      background-image: url(images/svg/arrow.svg)
+      background-position: 0px 5px
+      background-size: 100% auto
+      margin: 0 6px 0 8px
+      background-repeat no-repeat
+
+  &__link
+    color: $main_color
+    letter-spacing: 0
+    line-height: 42px
+    text-decoration underline
+    $ultraThin()
+    &:hover
+      text-decoration none
+
+.article-title
+  font-size: 48px
+  color: #fff
+  letter-spacing: -1.4px
+  line-height: 54px
+  padding-bottom: 13px
+  font-weight: 600
+
+.article-author
+  font-size: 13px
+  color: #FFFFFF
+  letter-spacing: 0
+  line-height: 16px
+  display flex
+  align-items center
+  font-weight 300
+  i
+    height: 24px
+
+.under-title
+  font-size: 18px
+  color: $text_color
+  letter-spacing: 0
+  line-height: 30px
+  position: relative
+  padding-bottom: 32px
+  font-weight 300
+  $ultraThin()
+  &.with-icon
+    padding-top: 18px
+    padding-left: 108px
+    font-size 18px
+    line-height 32px
+    &:before
+      content: ''
+      display: inline-block
+      background-image: url(images/svg/family_road.svg)
+      position: absolute
+      background-size: 100% auto
+      background-repeat no-repeat
+      width: 90px;
+      height: 127px;
+      left: -2px;
+      top: 25px;
+
+  &.expert-quote
+    max-width 84%
+
+  .under-title__bold
+    font-weight: 700
+
+
+.show_more:hover
+  .show_more__text
+    border-bottom-color: rgba(31, 146, 204, .0)
+
+.show_more__text
+  font-weight 600
+  font-size: 14px
+  color: #0DA4F0
+  letter-spacing: 0.3px
+  line-height: 22px
+  border-bottom: 1px dotted rgba(31, 146, 204, .4)
+  margin-left: 8px
+
+.text-icon
+  position: relative
+  padding-left: 22px
+  &:before
+    content: ''
+    position: absolute
+    left: 2px
+    top: 0
+    width: 16px
+    height: 16px
+    background-repeat: no-repeat
+    background-size: contain
+
+.culture
+  &:before
+    background-image: url(images/svg/culture.svg)
+
+.entertainment
+  &:before 
+    background-image: url(images/svg/entertainment.svg)
+
+.outdoor
+  &:before  
+    background-image: url(images/svg/outdoor.svg)
+    top: 2px
+
+.sports
+  &:before
+    background-image: url(images/svg/sport.svg)
+    background-repeat: no-repeat
+    top: 2px
+
+
+.accordion
+  &-head
+    display flex
+    justify-content space-between
+    text-align center
+    &__wrap
+      padding-top: 47px
+      .primary-title
+        font-size 29px
+        padding-bottom: 27px
+    &__item
+      height: 165px
+      box-sizing border-box
+      width: 18%
+      position: relative
+      background-color: #fff
+      border: 1px solid #CCEEFF
+      border-radius: 5px
+      font-size: 18px
+      color: #1E92CC
+      letter-spacing: 0
+      line-height: 26px
+      transition: all .3s linear
+      background-image: url(images/svg/top.svg)
+      background-repeat no-repeat
+      background-position: center 25px
+      padding-top: 124px
+      &:first-child
+        .accordion-head__number
+          left: 43%
+      &:nth-child(4)
+        .accordion-head__number
+          left: 41%
+      &:nth-child(2)
+        .accordion-head__number
+          left: 41.5%
+      &:nth-child(3)
+        .accordion-head__number
+          left: 41.5%
+
+      &:hover
+        background-color #eff9ff
+        transition: all .3s linear
+    &__number
+      font-weight: 500
+      font-size: 28px
+      position: absolute
+      top: 37px
+      left: 42%
+      color: #30B2F3
+    &__text
+      border-bottom: 1px dotted rgba(31, 146, 204, 0.40)
+      font-size: 14px
+      color: #1E92CC
+      letter-spacing: 0
+      line-height: 26px
+      font-weight 300
+      text-transform uppercase
+  &-body
+    &__item
+      padding-bottom: 28px
+
+    &.pic_right
+      .accordion-pic
+        float right
+        margin-left: 30px
+        margin-right: 0
+      .accordion-text_box
+        padding-left: 0
+    .main-text
+      color: #052333
+      font-size: 14px
+      line-height: 24px
+
+  &-pic
+    border-radius: 10px
+    border 10px solid #fff
+    box-shadow: 0 0 20px 0 rgba(8, 53, 77, 0.12), 10px 26px 53px -28px rgba(0, 0, 0, 0.75)
+    float: left
+    margin-right: 29px
+    position: relative
+    width: 413px
+    height: 140px
+    overflow hidden
+    img
+      position: absolute
+      max-width 100%
+      width: 100%
+      top: -57%
+
+  &-title
+    font-weight 300
+    font-size: 22px
+    color: #475359
+    letter-spacing: 0
+    line-height: 32px
+    margin-bottom: 20px
+    padding-top: 2px
+    $ultraThin()
+    b
+      padding-left: 11px
+      font-weight 600
+  &-text_box
+    padding-left: 464px
+    min-height 185px
+
+
+.accordion-body__item.los_angeles
+  img
+    top: -63%
+.accordion-body__item.new_york
+  img
+    top: -10%
+
+.accordion-body__item.denver
+  img
+    top: -45%
+
+.accordion-body__item.chicago
+  img
+    top: -67%
+
+.accordion-body__item.san_f
+  img
+    top: -55%
+
+@media(max-width: 1370px)
+  
+  .accordion-body__item.los_angeles
+    img
+      top: -23%
+  .accordion-body__item.new_york
+    img
+      top: 6%
+  .accordion-body__item.denver
+    img
+      top: -11%
+  .accordion-body__item.chicago
+    img
+      top: -37%
+
+  .accordion-body__item.san_f
+    img
+      top: -15%
+
+@media(max-width: 1019px)
+
+  .accordion-body__item.los_angeles
+    img
+      top: -3%
+  .accordion-body__item.new_york
+    img
+      top: 15%
+  .accordion-body__item.denver
+    img
+      top: 0
+  .accordion-body__item.chicago
+    img
+      top: -17%
+
+  .accordion-body__item.san_f
+    img
+      top: -5%
+
+@media(max-width: 759px)
+
+  .accordion-body__item.los_angeles
+    img
+      top: 1%
+  .accordion-body__item.new_york
+    img
+      top: 1%
+  .accordion-body__item.denver
+    img
+      top: 1%
+  .accordion-body__item.chicago
+    img
+      top: 0
+
+  .accordion-body__item.san_f
+    img
+      top: 1%
+
+.rate-block
+  background-image: linear-gradient(180deg, #4298E1 0%, #1763CC 100%);
+  border-radius: 3px
+  font-size: 13px
+  color: #fff
+  letter-spacing: 0
+  font-weight: 600
+  line-height: 26px
+  height: 26px
+  padding: 0 5px 0 28px
+  display: inline-block
+  position: relative
+  vertical-align: text-bottom
+  width: 64px
+  overflow hidden
+  box-sizing border-box
+  &:before
+    content ''
+    background-size: 100% auto
+    display: block
+    background-image: url(images/svg/icon_rate.svg)
+    position: absolute
+    background-repeat: no-repeat
+    width: 13px;
+    height: 18px;
+    left: 6px;
+    top: 5px;
+
+
+.dad-city__item
+  width: 100%
+  padding: 27px 24px 20px 22px
+  box-sizing border-box
+  margin-bottom: 30px
+  border-radius: 3px
+  border: 1px solid #DCE793
+
+  .primary-text
+    min-height 160px
+    font-size 14px
+    letter-spacing -0.2px
+    line-height 24px  
+    padding-bottom: 5px
+ 
+.party-dad
+  border: 1px solid #FFDC83
+  
+.th-dad
+  border: 1px solid #F1C4C4
+
+.typ-dad
+  border: 1px solid #98C7F3
+
+.dad-city__head
+  width: auto
+  padding-bottom: 9px
+
+.dad-city__pic
+  border-radius: 10px
+  border 10px solid #fff
+  box-shadow: 0 0 20px 0 rgba(8, 53, 77, 0.12), 10px 26px 53px -28px rgba(0, 0, 0, 0.75)
+  float: left
+  margin-right: 29px
+  position: relative
+  width: 413px
+  height: 140px
+  overflow hidden
+  img
+    position: absolute
+    max-width 100%
+    width: 100%
+    top: -57%
+    
+.thrill 
+  img
+    top: -42%
+
+.typical 
+  img
+    top: -52%
+    
+@media(max-width: 1019px)
+  .dad-city__pic
+    width: 355px
+    height: 170px
+    margin-right: 20px
+    img
+      position: absolute
+      max-width 100%
+      width: 100%
+      top: -27%
+    
+  .thrill 
+    img
+      top: 2%
+
+  .typical 
+    img
+      top: 2%
+
+@media(max-width: 759px)
+
+  .dad-city__item 
+    .primary-text
+      padding-left: 303px;
+      
+  .dad-city__head
+    margin-bottom: 0
+    padding-bottom: 0
+    .secondary-title
+      padding-bottom: 0
+      
+@media(min-width: 520px) and (max-width: 759px)
+  .dad-city__pic
+    width: 255px
+    img
+      top: 1%
+
+@media(max-width: 520px)
+
+  .dad-city__item 
+    .primary-text
+      padding-left: 0
+      
+  .dad-city__pic
+    float: none
+    width: 100%
+    min-height: 130px
+    height: auto
+    margin-bottom: 30px
+    box-sizing: border-box
+    img
+      position: static
+      width: 100%;
+      height: auto;
+      top: 0
+    
+
+.secondary-title
+  position: relative
+  font-size: 26px
+  color: $text_color
+  letter-spacing: 0
+  line-height: 32px
+  font-weight 600
+  letter-spacing -.6px
+  padding-bottom: 13px
+  align-items center
+  .lighter
+    font-weight 300
+    padding-left: 5px
+
+.author__wrap
+  display: flex
+
+.author-block
+  width: 240px
+  padding-right: 40px
+  .pic
+    margin-left: -10px
+
+.author-name
+  font-weight 600
+  padding-bottom: 12px
+  font-size: 20px
+  color: $text_color
+  letter-spacing: 0
+  line-height: 32px
+
+.author-post
+  padding-bottom: 10px
+  font-size: 14px
+  color: $text_color
+  letter-spacing: 0
+  font-style italic
+
+.author-article
+  max-height: 1500px;
+  transition: max-height 0.2s ease-in
+  overflow hidden
+
+  .main-text
+    color: $text_color
+  .link
+    color: $main_color
+    border-bottom: 1px solid rgba(252, 139, 63, 0.3)
+    &:hover
+      border-bottom: none
+.main-text+.author-title
+  display: block
+  padding-top: 20px 
+.author-title
+  color: #4A4A4A
+  font-weight 600
+  padding-bottom: 5px
+.methodology-title
+  font-size: 22px
+  color: $text_color
+  letter-spacing: 0
+  line-height: 32px
+  font-weight 600
+
+.methodology-article
+  padding-left: 104px
+  padding-top: 25px
+  position: relative
+  &:before
+    position: absolute
+    width: 63px
+    height: 72px
+    content: ''
+    display: inline-block
+    color: #fff
+    background-image: url(images/svg/meth.svg)
+    background-size: 100% auto
+    left: 8px
+    top: 27px
+  .main-text
+    padding-bottom: 26px
+.bottom-col
+  width: 48.5%
+  padding-right: 33px
+  box-sizing border-box
+  ul
+    padding-bottom: 16px
+
+  li
+    list-style-type: none
+    position: relative
+    padding-left: 16px
+    font-style: italic
+    font-size: 14px
+    color: $text_color
+    letter-spacing: 0
+    line-height: 26px
+    letter-spacing -0.2px
+
+    &:before
+      position: absolute
+      top: 9px
+      left: 0
+      width: 6px
+      height: 6px
+      display block
+      content ''
+      background-image: linear-gradient(#9AAFE9 0%, #506FD6 100%)
+      border-radius 100%
+    &:after
+      top: 10px
+      left: 1px
+      position: absolute
+      width: 4px
+      height: 4px
+      display block
+      content ''
+      background-color #fff
+      border-radius 100%
+
+.indicator-block
+  padding-left: 104px
+  padding-top: 24px
+  padding-bottom: 13px
+  .main-text
+    color: #475359
+
+.bottom-title
+  font-size: 14px
+  color: $text_color
+  letter-spacing: 0
+  line-height: 28px
+  font-weight 600
+  padding-bottom: 2px
+
+.b-brands
+  display flex
+  align-items center
+  padding-top: 33px
+  flex-wrap wrap
+  justify-content space-between
+  margin: 0 auto
+  padding-bottom: 0
+      
+
+.footer-menu__link, .article-author, .button-main, .button-register, .rate-block
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-smoothing: grayscale
+
+.show_more
+  font-size: 15px
+  color: #3175D2
+  letter-spacing: 0
+  font-weight 500
+  border: 1px solid rgba(198,224,246,1)
+  border-radius: 3px
+  line-height 48px
+  display inline-block
+  padding: 0 24px
+  cursor: pointer
+  span
+    border-bottom: 1px dotted rgba(198,224,246,1)
+    margin-left: 8px
+    color: #3175D2
+  &:hover
+    background-color #3486DA
+    transition: all .5s ease
+    span
+      color: #fff
+    .icon-next_white
+      z-index 1
+  .icon-next_white
+    position absolute
+    z-index -1
+
+
+.b-related
+  background: #FFFFFF
+  border-radius: 5px
+  margin-top: 30px
+
+.related-head
+  min-height 54px
+  display flex
+  justify-content space-between
+  align-items center
+  background: #F0FAFF
+  box-shadow: 0 1px 0 0 #DCEFF5
+  border-radius: 5px 5px 0 0
+  padding: 0 31px
+
+.related-title
+  font-size: 13px
+  color: #0084C3
+  letter-spacing: 0
+  text-transform uppercase
+  font-weight 600
+  letter-spacing -.1px
+
+.related-list
+  padding: 34px 31px 0px 31px
+  display flex
+  justify-content space-between
+  .col
+    width: 43%
+    padding-right: 5%
+
+.related-item
+  padding-bottom: 30px
+
+.related-item__title
+  font-size: 14px
+  color: #475359
+  letter-spacing: -0.2px
+  line-height: 20px
+  font-weight 600
+  padding-bottom: 12px
+
+.related-item__text
+  padding-bottom: 13px
+  line-height 24px
+  font-size: 14px
+  color: #475359
+  letter-spacing: -0.1px
+  font-weight 300
+
+.related-item__link
+  letter-spacing: -0.2px
+  font-weight 300
+  font-size: 14px
+  line-height 24px
+  color: #0DA4F0
+  border-bottom: 1px solid rgba(13, 164, 240, 0.30)
+  padding-bottom: 2px
+
+  &:after
+    width: 100%
+    display: block
+    content ''
+    margin-bottom: 3px
+
+  &:hover
+    border-bottom-color: rgba(13, 164, 239, 0.0)
+
+.footer-menu__link, .button-main, .button-register, .rate-block
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-smoothing: grayscale
+
+.show_more
+  font-size: 15px
+  color: $main_color
+  letter-spacing: 0
+  font-weight 500
+  border: 1px solid #C5DFF6
+  border-radius: 3px
+  line-height 48px
+  display inline-block
+  padding: 0 24px
+  cursor: pointer
+  span
+    border-bottom: 1px dotted rgba(21, 98, 203, 0.3)
+    margin-left: 8px
+    color: $main_color
+  &:hover
+    background-color $main_color
+    transition: all .5s ease
+    border-color $main_color
+    span
+      color: #fff
+      border-bottom-color: $main_color
+
+    .icon-next_white
+      z-index 1
+  .icon-next_white
+    position absolute
+    z-index -1

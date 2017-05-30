@@ -1,0 +1,184 @@
+@import "_variable.styl"
+.article-table
+  position: relative
+.table-cities
+  width: 100%
+  border-spacing: 0
+  background: #44cdf9
+  background-image: linear-gradient(90deg, #1763CC 0%, #4197E1 100%)
+  border-radius: 5px 5px 0 0
+  font-size 13px
+  color: #475359
+  font-weight 600
+
+  th
+    font-size: 11px
+    color: #FFFFFF
+    letter-spacing: 0
+    line-height: 16px
+    text-transform uppercase
+    border-right 1px solid rgba(255, 255, 255, .2)
+    vertical-align middle
+    font-weight 600
+    position: relative
+    padding-right: 20px
+    box-sizing: border-box
+    &:first-child
+      padding-right: 0
+    &:last-child
+      border-right none
+    &:nth-child(2)
+      text-align left
+      padding-left: 17px
+    &.head__title--city
+      border-right-width 0
+
+  thead
+    tr
+      background-color rgba(0, 0, 0, 0) !important
+  th, td
+    height: 50px
+    text-align center
+  td:nth-child(1)
+    color: #859BA6
+
+    font-weight 600
+  td:nth-child(2)
+    padding-left: 18px
+    box-sizing: border-box
+    text-align left
+    width: 25.3%
+    font-weight lighter
+    font-size 13px
+    color: $title_color
+    b
+      font-weight 600
+      color: #575250
+  td:nth-child(1)
+    width: 4.4%
+  td:nth-child(2)
+    width: 26.1%
+  td:nth-child(3)
+    width: 10.1%
+  td:nth-child(4)
+    width: 16%
+  td:nth-child(5)
+    width: 10.5%
+  td:nth-child(6)
+    width: 17.9%
+
+
+  tr:nth-child(even)
+    background-color #F2F6F8
+  tr:nth-child(odd)
+    background-color #fff
+  td
+    color: #76706D
+    border-bottom: 1px solid #e6eef2
+
+.table_sort
+  cursor: pointer
+
+.hint
+  box-sizing border-box
+  border-radius: 5px
+  position: absolute
+  text-align left
+  width: 205px
+  background: #fff
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, .1)
+  padding: 21px 21px 12px 12px
+  color: #475359
+  line-height: 18px
+  font-weight: 400
+  text-transform: initial
+  top: 36px
+  left: 27.5%
+  font-size: 12px
+
+  &:before
+    width: 0
+    height: 0
+    border-style: solid
+    border-width: 5px 6px 0 6px
+    border-color: #fff transparent transparent transparent
+    content: ''
+    position: absolute
+    bottom: -5px
+    left: 48%
+  b
+    font-weight 600
+  .close
+    position: absolute
+    right: 10px
+    top: 10px
+
+.table_sort
+  position: relative
+  &:before
+    position: absolute
+    right: 20px
+    top: 15px
+    display: block
+    content: ''
+    width: 0
+    height: 0
+    opacity: .7
+    border-style: solid
+    border-width: 0 5px 6px 5px
+    border-color: transparent transparent rgba(255, 255, 255, 1) transparent
+  &:after
+    position: absolute
+    right: 20px
+    top: 25px
+    width: 0
+    height: 0
+    opacity: .7
+    content: ''
+    border-style: solid
+    border-width: 6px 5px 0 5px
+    border-color: rgba(255, 255, 255, 1) transparent transparent transparent
+  &.down
+    &:after
+      opacity 1
+  &.top
+    &:before
+      opacity 1
+
+.mobile-only-show, .mobile-only-close
+  display: none
+
+.table-title
+  font-weight 600
+  font-size: 34px
+  color: #0A0B0C
+  letter-spacing: 0
+  line-height: 42px
+  padding-bottom: 30px
+  text-align center
+
+.text-box.js-mob-insert
+  border-radius: 5px
+.table-short
+  .table-cities__wrap
+    height: 1070px
+    overflow hidden
+  .table_show__wrap
+    display: block
+
+
+.table_show__wrap
+  display: none
+  text-align center
+  padding-top: 30px
+  position: relative
+  &:before
+    height: 60px
+    width: 100%
+    position: absolute
+    top: -60px
+    display: block
+
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,1) 100%)
+    content: ''
+

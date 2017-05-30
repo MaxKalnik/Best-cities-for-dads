@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4298E1" offset="0%"></stop>
+            <stop stop-color="#1763CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dads_Best_Destinations" transform="translate(-242.000000, -5850.000000)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <g id="Content" transform="translate(65.000000, 381.000000)">
+                <g id="Best-Cities-for" transform="translate(153.000000, 1252.000000)">
+                    <g id="For-the-Typical-Dad:" transform="translate(0.000000, 4193.000000)">
+                        <g id="Icon" transform="translate(24.000000, 24.000000)">
+                            <path d="M22,40.6030552 C32.2741837,40.6030552 40.6030552,32.2741837 40.6030552,22 C40.6030552,11.7258163 32.2741837,3.39694477 22,3.39694477 C11.7258163,3.39694477 3.39694477,11.7258163 3.39694477,22 C3.39694477,32.2741837 11.7258163,40.6030552 22,40.6030552 Z M22,44 C9.8497355,44 0,34.1502645 0,22 C0,9.8497355 9.8497355,0 22,0 C34.1502645,0 44,9.8497355 44,22 C44,34.1502645 34.1502645,44 22,44 Z" id="Combined-Shape-Copy-2"></path>
+                            <g id="Group" transform="translate(21.700000, 22.000000) scale(-1, 1) translate(-21.700000, -22.000000) translate(9.200000, 10.000000)">
+                                <path d="M23.4,18.96 L19.92,17.04 C18.6,16.32 18,14.64 18.6,13.2 C18.84,12.72 18.96,12.12 19.08,11.52 L11.64,18.96 C12.24,18.84 12.72,18.72 13.32,18.48 C14.76,17.88 16.44,18.48 17.16,19.8 L19.08,23.28 C19.44,24 20.4,24.12 21,23.52 L23.88,20.64 C24.24,20.28 24.12,19.32 23.4,18.96 Z M19.08,7.92 C18,2.16 11.88,-1.8 5.76,0.84 C3.6,1.8 1.8,3.6 0.84,5.76 C-1.8,11.88 2.16,18 7.92,19.08 C8.04,19.08 8.04,19.08 8.16,18.96 L19.08,8.04 C19.08,8.04 19.08,7.92 19.08,7.92 Z M4.8,13.2 C3.48,13.2 2.4,12.12 2.4,10.8 C2.4,9.48 3.48,8.4 4.8,8.4 C6.12,8.4 7.2,9.48 7.2,10.8 C7.2,12.12 6.12,13.2 4.8,13.2 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
